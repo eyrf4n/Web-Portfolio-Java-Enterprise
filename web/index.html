@@ -1,0 +1,78 @@
+<!DOCTYPE html>  
+<html>  
+<head>  
+    <meta charset="UTF-8">  
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <title>Index</title>  
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-image: url("Image/loginBackground.jpg");
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+        
+        .buttonLog {
+            display: inline-block;
+            padding: 10px 20px;
+            margin: 10px;
+            text-decoration: none;
+            background-color: #4CAF50; /* Green */
+            color: white;
+            border: 1px solid #4CAF50;
+            border-radius: 5px;
+            cursor: pointer;
+            text-align: center;
+        }
+
+        .buttonLog:hover {
+            background-color: white;
+            color: #4CAF50;
+            transition: 0.3s;
+        }
+        
+        .section{
+            text-align: center;
+            padding: 10px;
+            background: rgba(255, 255, 255, 0.15);
+            border-radius: 16px;
+            box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+            backdrop-filter: blur(3.1px);
+            -webkit-backdrop-filter: blur(3.1px);
+            border: 1px solid rgba(255, 255, 255, 0.15);
+        }
+        
+        .index-title h1,
+        .index-title h4,
+        .box h4{
+            color: #fff;
+
+        }
+    </style>
+</head> 
+
+<body>  
+    <div class="section">
+        <div class="index-title">
+            <h1>Welcome to <i>Irfan's Porfolio</i></h1>
+            <h4>But first, please login.</h4>
+        </div>
+
+        <div class="index-box">
+            <div class="box">
+                <a href="login.jsp" class="buttonLog">Login</a>
+            </div>
+            
+            <div class="box">
+                <h4>Don't have an account yet?</h4>
+                <a href="register.jsp" class="buttonLog">Register</a>
+            </div>
+        </div>
+    </div>
+</body>  
+</html> 
