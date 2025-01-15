@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&family=Koulen&family=Kufam&family=Montserrat:wght@500&family=Oswald:wght@500&family=Playfair+Display&display=swap');   
+
+
+body {
+    font-family: montserrat;
+    background-color: #2e364a;
+    margin: -50px 0 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.section-header {
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+form {
+    padding: 20px;
+    width: 300px;
+    background: rgba(255, 255, 255, 0.94);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(9.3px);
+    -webkit-backdrop-filter: blur(9.3px);
+    border: 1px solid rgba(255, 255, 255, 0.65);
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    font-family: montserrat;
+}
+
+input[type="submit"] {
+    background-color: #3a3a3a;
+    color: #fff;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #fff;
+    color: #3a3a3a;
+    transition: 0.3s;
+}
+
+.error-message {
+    color: red;
+    margin: 4px;
+    text-align: center;
+}
+
+@media screen and (max-width: 600px) {
+    form {
+        max-width: 80%; /* Adjust the width for smaller screens */
+    }
+}
+
